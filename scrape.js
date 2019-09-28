@@ -6,8 +6,8 @@ nightmare
   .click('a[href="catalogue/a-light-in-the-attic_1000/index.html"]')
   .wait('p')
   .evaluate(() => {
-    var nameNode = document.querySelector('p');
-    return nameNode.innerText
+    var baseNode = document.getElementById('product_description');
+    return baseNode.nextElementSibling.innerText;
   })
   .end()
   .then(result => {
