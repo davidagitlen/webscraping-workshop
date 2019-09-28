@@ -17,7 +17,7 @@ http://books.toscrape.com/
 
 //click on anchor with appropriate href
 
-//find beginning of description by id
+//find beginning of description section by id
 
 //get next element sibling to avoid inserted whitespace nodes
 
