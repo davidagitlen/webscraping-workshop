@@ -21,4 +21,4 @@ http://books.toscrape.com/
 
 //get next element sibling to avoid inserted whitespace nodes
 
-//get inner text from <p> with description of book
+//get inner text from `<p>` with description of book
